@@ -9,6 +9,11 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
+            char key = ' ';
+            while (true)
+            {
+                
+            }
         }
     }
 }
