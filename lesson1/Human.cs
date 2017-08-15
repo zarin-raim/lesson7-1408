@@ -16,14 +16,12 @@ namespace lesson1
 
         public static Society operator + (Human human1, Human human2)
         {
-            Society result = human1 + human2;
-            return result;
+            return new Society();
         }
 
         public static Developer operator + (Human human, Bit bit)
         {
-            Developer result = human + bit;
-            return result;
+            return new Developer();
         }
 
     }

@@ -14,16 +14,14 @@ namespace lesson1
             get { return _name; }
         }
 
-        public static Database operator +(Data data1, Data data2)
+        public static Database operator + (Data data1, Data data2)
         {
-            Database result = data1 + data2;
-            return result;
+            return new Database();
         }
 
         public static Bit operator -(Data data, Bit bit)
         {
-            Bit result = data - bit;
-            return result;
+            return new Bit();
         }
     }
 }

@@ -16,8 +16,7 @@ namespace lesson1
 
         public static Data operator - (Database database, Data data)
         {
-            Data result = database - data;
-            return result;
+            return new Data();
         }
 
     }

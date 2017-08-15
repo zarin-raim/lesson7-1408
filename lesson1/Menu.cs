@@ -7,6 +7,18 @@ namespace lesson1
 {
     class Menu
     {
+        Array array;
+
+        public Menu()
+        {
+            array = new Array();
+
+            array.Add(new Bit(), array.GetSize());
+            array.Add(new Human(), array.GetSize());
+
+            DrawMenu();
+        }
+
         public void DrawMenu()
         {
             Console.WriteLine
@@ -17,14 +29,16 @@ namespace lesson1
             );
         }       
 
-
         public void Handler(char key)
         {
             switch (key)
             {
                 case '1':
                     {
-
+                        for(int i = 0; i < array.GetSize(); i++)
+                        {
+                            //Console.WriteLine(i + " - " + array.GetObject(i).Name);
+                        }
                     }
                     break;
                 case '0': break;

@@ -9,11 +9,26 @@ namespace lesson1
     {
         static void Main(string[] args)
         {
-            char key = ' ';
-            while (true)
-            {
-                
-            }
+            
+            Bit bit = new Bit();
+            Bit bit1 = new Bit();
+
+
+            Console.WriteLine((bit + bit1).Name);
+            Console.WriteLine(((bit + bit1) + (bit + bit1)).Name);
+
+            Console.WriteLine((bit + bit).Name);
+            Console.WriteLine(((bit + bit) + (bit + bit)).Name);
+
+
+            Console.ReadLine();
+
+            //Menu menu = new Menu();
+            //char key = ' ';
+            //while (true)
+            //{
+            
+            //}
         }
     }
 }

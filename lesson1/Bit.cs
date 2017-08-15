@@ -16,8 +16,7 @@ namespace lesson1
 
         public static Data operator + (Bit bit1, Bit bit2)
         {
-            Data result = bit1 + bit2;
-            return result;
+            return new Data();
         }
 
     }

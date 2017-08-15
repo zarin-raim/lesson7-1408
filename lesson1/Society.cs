@@ -16,8 +16,7 @@ namespace lesson1
 
         public static Human operator - (Society society, Human human)
         {
-            Human result = society - human;
-            return result;
+            return new Human();
         }
     }
 }
